@@ -269,9 +269,7 @@ module Facebook
             rescue SocketError
               puts ("\033[91m[!] No Connection\033[0m")
               sleep (0.9)
-            rescue Net::OpenTimeout
-              puts ("\033[93m[!] Connection timed out\033[0m")
-              sleep(1)
+           sleep(1)
             rescue Errno::ENETUNREACH,Errno::ECONNRESET
               puts ("\033[93m[!] Slow Internet Connection\033[0m")
               sleep(0.5)
@@ -290,8 +288,8 @@ end
 $logo = <<-INI_LOGO
   ________  ___  _______ __
  / ___/ _ \\/ _ |/ ___/ //_/ Author  : HILAL GANTENG
-/ /__/ , _/ __ / /__/ ,<    Github  : KONTOL😂
-\\___/_/|_/_/ |_\\___/_/|_|   Version : abad ke 4
+/ /__/ , _/ __ / /__/ ,<    Github  : Ada lah🪨🗿
+\\___/_/|_/_/ |_\\___/_/|_|   Version : 1.1
 INI_LOGO
 
 def tik(teks)
@@ -315,7 +313,7 @@ def main
   system ('clear')
   puts ($logo)
   puts ("[✓] ACTIVE USER : #{$name}")
-  puts ("[✓] USER AGENT  : #{$ua.device.name}")
+  puts ("[✓] KONTOL LU  : #{$ua.device.name}")
   puts ("[✓] IP ADDRESS  : #{$ip}\n\n")
   puts ("[1] Crack Dari Teman")
   puts ("[2] Crack Dari Followers")
