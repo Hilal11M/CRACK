@@ -647,4 +647,3 @@ if __FILE__ == $0
   FileUtils.mkdir_p(File.join('results','CP'))
   FileUtils.mkdir_p(File.join('results','OK'))
   masuk()
-end
